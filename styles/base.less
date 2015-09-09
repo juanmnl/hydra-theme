@@ -1,13 +1,11 @@
 @import "syntax-variables";
 
 :host, .atom-text-editor {
-  color: @syntax-text-color;
-  background-color: @syntax-background-color;
+  color: @text;
 }
 
 :host, .atom-text-editor {
-  color: @syntax-text-color;
-  background-color: @syntax-background-color;
+  color: @text;
 
   .wrap-guide {
     background-color: @syntax-wrap-guide-color;
@@ -48,7 +46,7 @@
   }
 
   .cursor {
-    color: @syntax-cursor-color;
+    color: @text;
     border-left: 2px solid;
   }
 
@@ -88,6 +86,7 @@
   }
 
   &.operator {
+    font-weight: bold;
     color: @hydra;
   }
 
@@ -140,6 +139,8 @@
   }
 
   &.language.this.js {
+    font-style: italic;
+    font-weight: bold;
     color: @hydra;
   }
 }
@@ -176,6 +177,7 @@
     &.variable,
     &.parameters,
     &.array {
+      font-weight: bold;
       color: @syntax-text-color;
     }
 

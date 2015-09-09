@@ -1,7 +1,7 @@
 {
   "name": "hydra-syntax-theme",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Syntax inspired by colors in Marvel's Hydra aesthetics",
   "repository": {
     "type": "git",

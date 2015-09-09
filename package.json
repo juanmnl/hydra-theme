@@ -2,7 +2,7 @@
   "name": "hydra-syntax-theme",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "Inspired by Marvel's Hydra, we got this beautiful syntax theme",
+  "description": "Syntax inspired by colors in Marvel's Hydra aesthetics",
   "repository": {
     "type": "git",
     "url": "git://github.com/juanmnl/hydra-theme.git"

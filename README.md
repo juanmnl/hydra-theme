@@ -1,6 +1,6 @@
 # Hydra Syntax Theme
 
-Inspired by Marvel's Hydra, we got this beautiful syntax theme
+I made this syntax inspired by colors in Marvel's Hydra aesthetics. 
 
 ## Screen
 

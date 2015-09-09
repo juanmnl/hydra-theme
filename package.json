@@ -1,0 +1,24 @@
+{
+  "name": "hydra-syntax-theme",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Inspired by Marvel's Hydra, we got this beautiful syntax theme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juanmnl/redui-jm-theme.git"
+  },
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "keywords": [
+    "atom",
+    "syntax",
+    "theme"
+  ],
+  "author": "juanmnl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanmnl/redui-jm-theme/issues"
+  },
+  "homepage": "https://github.com/juanmnl/redui-jm-theme"
+}

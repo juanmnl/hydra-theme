@@ -195,10 +195,13 @@
       font-style: italic;
       color: @blue;
     }
+    &.tag {
+      color: @white;
+    }
   }
 
   &.section.embedded {
-    color: @text;
+    color: @white;
   }
 }
 
@@ -322,4 +325,12 @@
 
 .atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
+}
+
+atom-text-editor::shadow  .bracket-matcher .region {
+  z-index: 100;
+  padding: 2px;
+  background-color: transparent;
+  border: 1px solid @hydra;
+  border-radius: 1px;
 }

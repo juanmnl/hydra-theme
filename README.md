@@ -12,6 +12,8 @@ JS
 HTML
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/html.png)
 
+Bracket-matcher (NEW*)
+![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/jsx.png)
 
 Open Atom Preferences > Themes > Search: `hydra`,
 then Install.

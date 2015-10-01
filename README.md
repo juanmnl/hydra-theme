@@ -2,6 +2,8 @@
 
 I made this syntax inspired by Marvel's Hydra aesthetics.
 
+**Use with Atom's One Dark UI theme.** *(Comes by default)*
+
 ***Still a WIP***
 
 ## Screens
@@ -11,6 +13,10 @@ JS
 
 HTML
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/html.png)
+
+JSON
+HTML
+![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/json.png)
 
 Bracket-matcher (NEW*)
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/jsx.png)

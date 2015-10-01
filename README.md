@@ -15,7 +15,6 @@ HTML
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/html.png)
 
 JSON
-HTML
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/json.png)
 
 Bracket-matcher (NEW*)

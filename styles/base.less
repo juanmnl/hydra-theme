@@ -46,7 +46,7 @@
   }
 
   .cursor {
-    color: @text;
+    color: @white;
     border-left: 2px solid;
   }
 
@@ -91,7 +91,7 @@
   }
 
   &.other.special-method {
-    color: @text;
+    color: @white;
   }
 
   &.other.unit {
@@ -200,6 +200,10 @@
     }
   }
 
+  &.terminator {
+    color: @white;
+  }
+
   &.section.embedded {
     color: @white;
   }
@@ -221,7 +225,7 @@
 
 .entity {
   &.name.function {
-    color: @text;
+    color: @white;
   }
 
   &.name.class, &.name.type.class {
@@ -237,7 +241,8 @@
   }
 
   &.other.attribute-name {
-    color: @orange;
+    font-weight: bold;
+    color: @hydra;
 
     &.id {
       color: @text;
@@ -265,6 +270,11 @@
   &.separator {
     color: @syntax-text-color;
     background-color: @gray;
+  }
+
+  &.brace {
+    font-weight: bold;
+    color: @hydra;
   }
 
   &.property.object.js > .variable.other.property.js {
@@ -329,8 +339,7 @@
 
 atom-text-editor::shadow  .bracket-matcher .region {
   z-index: 100;
-  padding: 2px;
-  background-color: transparent;
-  border: 1px solid @hydra;
-  border-radius: 1px;
+  padding: 1px;
+  background-color: @bracket;
+  border: 1px solid @bracket;
 }

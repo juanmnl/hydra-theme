@@ -14,10 +14,13 @@ JS
 HTML
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/html.png)
 
+SASS
+![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/sass.png)
+
 JSON
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/json.png)
 
-Bracket-matcher (NEW*)
+JSX
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/jsx.png)
 
 Open Atom Preferences > Themes > Search: `hydra`,

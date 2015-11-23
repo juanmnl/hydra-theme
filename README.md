@@ -4,7 +4,7 @@ I made this syntax inspired by Marvel's Hydra aesthetics.
 
 **Use with Atom's One Dark UI theme.** *(Comes by default)*
 
-***Still a WIP***
+Finally v1.0.0 :tongue:
 
 ## Screens
 

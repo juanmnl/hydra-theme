@@ -1,7 +1,7 @@
 {
   "name": "hydra-syntax-theme",
   "theme": "syntax",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Syntax inspired by Marvel's Hydra aesthetics – **Use with Atom's One Dark UI theme**",
   "repository": {
     "type": "git",

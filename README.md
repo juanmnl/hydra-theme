@@ -1,6 +1,7 @@
 # Hydra Syntax Theme
+![Inspiration](./inspiration.png)
 
-I made this syntax inspired by Marvel's Hydra aesthetics.
+Hail Hydra!
 
 **Use with Atom's One Dark UI theme.** *(Comes by default)*
 
@@ -8,20 +9,14 @@ Finally v1.0.0 :tongue:
 
 ## Screens
 
-JS
-![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/screenshot.png)
+ES6 (w/babel)
+![Hydra-syntax screenshot](./main.png)
 
 HTML
-![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/html.png)
+![Hydra-syntax screenshot](./html.png)
 
 SASS
-![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/sass.png)
-
-JSON
-![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/json.png)
-
-JSX
-![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/jsx.png)
+![Hydra-syntax screenshot](./sass.png)
 
 Open Atom Preferences > Themes > Search: `hydra`,
 then Install.

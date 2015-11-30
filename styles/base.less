@@ -1,24 +1,28 @@
 @import "syntax-variables";
 
-:host, .atom-text-editor {
+
+//////////////////////////////////////
+//////////////// ATOM ////////////////
+//////////////////////////////////////
+
+.atom-workspace {
   color: @text;
+  background-color: @background;
 }
 
-:host, .atom-text-editor {
-  color: @text;
+atom-text-editor::shadow .wrap-guide {
+  background-color: @shadow;
+}
 
-  .wrap-guide {
-    background-color: @syntax-wrap-guide-color;
-  }
+atom-text-editor::shadow .indent-guide {
+  color: @syntax-indent-guide-color;
+}
 
-  .indent-guide {
-    color: @syntax-indent-guide-color;
-  }
+atom-text-editor::shadow .invisible-character {
+  color: @syntax-invisible-character-color;
+}
 
-  .invisible-character {
-    color: @syntax-invisible-character-color;
-  }
-
+atom-text-editor::shadow {
   .gutter {
     color: @syntax-gutter-text-color;
     background-color: @syntax-gutter-background-color;
@@ -63,6 +67,7 @@
 .atom-text-editor .search-results .marker.current-result .region {
   border: 2px solid @syntax-result-marker-color-selected;
 }
+
 
 .comment {
   color: @light-gray;
@@ -210,16 +215,13 @@
 }
 
 .support {
+  font-weight: bold;
   &.class {
     color: @hydra;
   }
 
   &.function {
-    color: lighten(@blue, 25%);
-
-    &.any-method {
-      color: @text;
-    }
+    color: @hydra;
   }
 }
 
@@ -250,6 +252,37 @@
   }
 }
 
+.none {
+  color: @syntax-text-color;
+}
+
+.source.gfm .markup {
+  -webkit-font-smoothing: auto;
+  &.heading {
+    font-weight: bold;
+    color: @hydra;
+  }
+}
+
+.atom-text-editor[mini] .scroll-view {
+  padding-left: 1px;
+}
+
+.scroll-view {
+  padding-left: 1px;
+}
+
+atom-text-editor::shadow  .bracket-matcher .region {
+  z-index: 100;
+  padding: 2px;
+  background-color: rgba(255,255,255, .2);
+  border: 1px solid @hydra;
+}
+
+
+//////////////////////////////////////
+////////////// JS & ES6 //////////////
+//////////////////////////////////////
 .meta {
   &.class {
     color: @hydra;
@@ -294,14 +327,25 @@ span.meta.tag.jsx {
   color: @blue;
 }
 
-.none {
-  color: @syntax-text-color;
+span.period.js {
+  color: @hydra;
 }
+span.source.js {
+  color: @text;
+}
+.string.quoted.js {
+  color: @text;
+}
+
+
+//////////////////////////////////////
+/////////////// MARKUP ///////////////
+//////////////////////////////////////
 
 .markup {
   &.bold {
     font-style: bold;
-    color: @orange;
+    color: @hydra;
   }
 
   &.changed {
@@ -330,7 +374,7 @@ span.meta.tag.jsx {
   }
 
   &.list {
-    color: @orange;
+    color: @hydra;
   }
 
   &.quote {
@@ -340,27 +384,4 @@ span.meta.tag.jsx {
   &.raw.inline {
     color: @text;
   }
-}
-
-.source.gfm .markup {
-  -webkit-font-smoothing: auto;
-  &.heading {
-    font-weight: bold;
-    color: @hydra;
-  }
-}
-
-.atom-text-editor[mini] .scroll-view {
-  padding-left: 1px;
-}
-
-.scroll-view {
-  padding-left: 1px;
-}
-
-atom-text-editor::shadow  .bracket-matcher .region {
-  z-index: 100;
-  padding: 2px;
-  background-color: rgba(255,255,255, .2);
-  border: 1px solid @hydra;
 }

@@ -3,9 +3,9 @@
 
 Hail Hydra!
 
-**Use with Atom's One Dark UI theme.** *(Comes by default)*
+**Use with Atom's One Dark UI theme.**
 
-Finally v1.0.0 :tongue:
+:fire: v1.0.0 is here! :fire:
 
 ## Screens
 

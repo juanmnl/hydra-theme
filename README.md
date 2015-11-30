@@ -1,5 +1,5 @@
 # Hydra Syntax Theme
-![Inspiration](./inspiration.png)
+![Inspiration](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/inspiration.png)
 
 Hail Hydra!
 
@@ -10,13 +10,13 @@ Hail Hydra!
 ## Screens
 
 ES6 (w/babel)
-![Hydra-syntax screenshot](./main.png)
+![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/main.png)
 
 HTML
-![Hydra-syntax screenshot](./html.png)
+![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/html.png)
 
 SASS
-![Hydra-syntax screenshot](./sass.png)
+![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/sass.png)
 
 Open Atom Preferences > Themes > Search: `hydra`,
 then Install.

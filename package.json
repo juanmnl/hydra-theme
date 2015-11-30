@@ -1,7 +1,7 @@
 {
   "name": "hydra-syntax-theme",
   "theme": "syntax",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Hail Hydra! – **Use with Atom's One Dark UI theme**",
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 # Hydra Syntax Theme
-![Inspiration](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/inspiration.png)
+![Inspiration](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/hydra.png)
 
 Hail Hydra!
 

@@ -2,7 +2,7 @@
   "name": "hydra-syntax-theme",
   "theme": "syntax",
   "version": "1.1.5",
-  "description": "Hail Hydra! :fire:",
+  "description": "Hail Hydra!",
   "repository": {
     "type": "git",
     "url": "git://github.com/juanmnl/hydra-theme.git"

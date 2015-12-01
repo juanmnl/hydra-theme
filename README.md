@@ -15,8 +15,11 @@ ES6 (w/babel)
 HTML
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/html.png)
 
-SASS
+SCSS
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/sass.png)
+
+JSX
+![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/jsx.png)
 
 Open Atom Preferences > Themes > Search: `hydra`,
 then Install.

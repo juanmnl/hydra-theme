@@ -209,8 +209,13 @@ atom-text-editor::shadow {
     color: @white;
   }
 
-  &.section.embedded {
-    color: @white;
+  &.section {
+    &.embedded {
+      color: @white;
+    }
+    &.property-list {
+      color: @white;
+    }
   }
 }
 
@@ -222,6 +227,10 @@ atom-text-editor::shadow {
 
   &.function {
     color: @hydra;
+  }
+
+  &.type {
+    color: @text;
   }
 }
 

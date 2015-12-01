@@ -331,7 +331,7 @@ span.period.js {
   color: @hydra;
 }
 span.source.js {
-  color: @text;
+  color: @white;
 }
 .string.quoted.js {
   color: @text;
@@ -384,4 +384,18 @@ span.source.js {
   &.raw.inline {
     color: @text;
   }
+}
+
+//////////////////////////////////////
+////////////// PATCHES ///////////////
+//////////////////////////////////////
+
+atom-text-editor.vim-mode.insert-mode.is-focused::shadow {
+  .cursor {
+    color: #ffe800;
+  }
+}
+
+button, button.icon, .btn-default, .btn {
+  color: #b1c3cd;
 }

@@ -1,36 +1,33 @@
 @import "syntax-variables";
 
-
 //////////////////////////////////////
 //////////////// ATOM ////////////////
 //////////////////////////////////////
 
-.atom-workspace {
-  color: @text;
-  background-color: @background;
-}
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
 
-atom-text-editor::shadow .wrap-guide {
-  background-color: @shadow;
-}
+  .wrap-guide {
+    background-color: @syntax-wrap-guide-color;
+  }
 
-atom-text-editor::shadow .indent-guide {
-  color: @syntax-indent-guide-color;
-}
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
 
-atom-text-editor::shadow .invisible-character {
-  color: @syntax-invisible-character-color;
-}
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
 
-atom-text-editor::shadow {
   .gutter {
-    color: @syntax-gutter-text-color;
     background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
 
     .line-number {
       &.cursor-line {
-        color: @syntax-gutter-text-color-selected;
         background-color: @syntax-gutter-background-color-selected;
+        color: @syntax-gutter-text-color-selected;
       }
 
       &.cursor-line-no-selection {
@@ -50,24 +47,29 @@ atom-text-editor::shadow {
   }
 
   .cursor {
-    color: @white;
-    border-left: 2px solid;
+    color: @syntax-cursor-color;
   }
 
   .selection .region {
     background-color: @syntax-selection-color;
   }
-}
 
-.atom-text-editor .search-results .marker .region {
-  background-color: transparent;
-  border: 2px solid @syntax-result-marker-color;
-}
+  .bracket-matcher .region {
+    z-index: 100;
+    padding: 2px;
+    background-color: rgba(255,255,255, .2);
+    border: 1px solid @hydra;
+  }
 
-.atom-text-editor .search-results .marker.current-result .region {
-  border: 2px solid @syntax-result-marker-color-selected;
-}
+  .search-results .marker .region {
+    background-color: transparent;
+    border: 2px solid @syntax-result-marker-color;
+  }
 
+  .search-results .marker.current-result .region {
+    border: 2px solid @syntax-result-marker-color-selected;
+  }
+}
 
 .comment {
   color: @light-gray;
@@ -281,13 +283,15 @@ atom-text-editor::shadow {
   padding-left: 1px;
 }
 
-atom-text-editor::shadow  .bracket-matcher .region {
-  z-index: 100;
-  padding: 2px;
-  background-color: rgba(255,255,255, .2);
-  border: 1px solid @hydra;
-}
+//////////////////////////////////////
+//////////////// HTML ////////////////
+//////////////////////////////////////
 
+.html {
+  &.basic {
+    color: @white;
+  }
+}
 
 //////////////////////////////////////
 ////////////// JS & ES6 //////////////
@@ -399,12 +403,8 @@ span.source.js {
 ////////////// PATCHES ///////////////
 //////////////////////////////////////
 
-atom-text-editor.vim-mode.insert-mode.is-focused::shadow {
-  .cursor {
-    color: #ffe800;
-  }
-}
 
+// Fix Tool Bar plugin icon color
 button, button.icon, .btn-default, .btn {
   color: #b1c3cd;
 }

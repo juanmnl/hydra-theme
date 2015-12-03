@@ -26,7 +26,7 @@ SCSS
 JSX
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/jsx.png)
 
-Open Atom Preferences > Themes > Search: `hydra`,
+Open Atom Preferences > Install > Search *themes*: `hydra`,
 then Install.
 
 *You may need to reload Atom `Cmd+R` in between these steps.*

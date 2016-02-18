@@ -5,8 +5,8 @@
 //////////////////////////////////////
 
 atom-text-editor, :host {
-  background-color: @syntax-background-color;
   color: @syntax-text-color;
+  background-color: @syntax-background-color;
 
   .wrap-guide {
     background-color: @syntax-wrap-guide-color;
@@ -21,13 +21,13 @@ atom-text-editor, :host {
   }
 
   .gutter {
-    background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
+    background-color: @syntax-gutter-background-color;
 
     .line-number {
       &.cursor-line {
-        background-color: @syntax-gutter-background-color-selected;
         color: @syntax-gutter-text-color-selected;
+        background-color: @syntax-gutter-background-color-selected;
       }
 
       &.cursor-line-no-selection {
@@ -47,9 +47,9 @@ atom-text-editor, :host {
   }
 
   .cursor {
+    width: 2px !important;
     color: @syntax-cursor-color;
     background-color: @white;
-    width: 2px !important;
   }
 
   .selection .region {
@@ -133,6 +133,7 @@ atom-text-editor, :host {
 }
 
 .variable {
+  font-weight: 500;
   color: @orange;
 
   &.interpolation {
@@ -322,7 +323,7 @@ atom-text-editor, :host {
   }
 }
 
-span.meta.tag.jsx {
+.meta.tag.jsx {
   color: @white;
 }
 
@@ -334,10 +335,10 @@ span.meta.tag.jsx {
   color: @blue;
 }
 
-span.period.js {
+.period.js {
   color: @hydra;
 }
-span.source.js {
+.source.js {
   color: @white;
 }
 .string.quoted.js {

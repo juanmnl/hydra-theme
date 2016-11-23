@@ -91,7 +91,7 @@ atom-text-editor, :host {
   color: @blue;
 
   &.control {
-    color: @blue;
+    color: #ff3f8c;
   }
 
   &.operator {
@@ -133,8 +133,7 @@ atom-text-editor, :host {
 }
 
 .variable {
-  font-weight: 500;
-  color: @orange;
+  color: #96aaff;
 
   &.interpolation {
     color: lighten(@orange, 10%);
@@ -206,7 +205,7 @@ atom-text-editor, :host {
       color: @blue;
     }
     &.tag {
-      color: @white;
+      color: #fff;
     }
   }
 
@@ -225,7 +224,6 @@ atom-text-editor, :host {
 }
 
 .support {
-  font-weight: bold;
   &.class {
     color: @hydra;
   }
@@ -241,7 +239,8 @@ atom-text-editor, :host {
 
 .entity {
   &.name.function {
-    color: @white;
+  color: #ffffff;
+  font-weight: 400;
   }
 
   &.name.class, &.name.type.class {
@@ -314,12 +313,12 @@ atom-text-editor, :host {
   }
 
   &.brace {
-    font-weight: bold;
-    color: @walterWhite;
+    color: #fff;
+    font-weight: 400;
   }
 
   &.property.object.js > .variable.other.property.js {
-    color: @orange;
+    color: #00d8ff;
   }
 }
 
@@ -339,7 +338,7 @@ atom-text-editor, :host {
   color: @hydra;
 }
 .source.js {
-  color: @white;
+  color: #fff;
 }
 .string.quoted.js {
   color: @text;
@@ -419,4 +418,28 @@ atom-text-editor, :host {
 // Fix Tool Bar plugin icon color
 button, button.icon, .btn-default, .btn {
   color: #b1c3cd;
+}
+
+//////////////////////////////////////
+////////////// JSX ////////////////////
+//////////////////////////////////////
+
+.entity.name.class, .entity.name.type.class {
+  color: #ff0066;
+  font-weight: bolder;
+}
+
+.storage.type.js {
+  color: #fff;
+  font-weight: 400;
+}
+
+.entity.other.attribute-name.jsx {
+  color: #d4c5ff;
+  font-weight: 400;
+}
+
+.meta.tag.jsx {
+  color: #98ffcc;
+  font-weight: 400;
 }

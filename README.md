@@ -2,7 +2,7 @@
 ![Inspiration](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/hydra.png)
 
 Hail Hydra!  
-While trying to stay on the hydra's aesthetics side, I will continue to improve this theme based on user feedback and my own research. Main goals will always be readability and long-term usage.  
+Main goals will always be readability and long-term usage.  
 
 You can help develop this theme further by contributing to the github repo.  
 

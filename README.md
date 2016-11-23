@@ -10,7 +10,7 @@ Chao!! :)
 
 **Use with Atom's One Dark UI theme.**
 
-:fire: v1.0.0 is here! :fire:
+:fire: v2.0.0 is here! :fire:
 
 ## Screens
 

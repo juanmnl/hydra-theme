@@ -14,16 +14,7 @@ Cheers! :)
 
 ## Screens
 
-ES6 (w/babel)
-![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/main.png)
-
-HTML
-![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/html.png)
-
-SCSS
-![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/sass.png)
-
-JSX
+ES6/REACT DEV
 ![Hydra-syntax screenshot](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/jsx.png)
 
 Open Atom Preferences > Install > Search *themes*: `hydra`,

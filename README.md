@@ -6,7 +6,7 @@ Main goals will always be readability and long-term usage.
 
 You can help develop this theme further by contributing to the github repo.  
 
-Cheers! :)  
+Chao!! :)  
 
 **Use with Atom's One Dark UI theme.**
 

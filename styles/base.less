@@ -154,7 +154,7 @@ atom-text-editor {
   }
 }
 
-.invalid.illegal {
+.syntax--invalid.syntax--illegal {
   color: @syntax-background-color;
   background-color: @hydra;
 }
@@ -166,7 +166,7 @@ atom-text-editor {
   &.syntax--regexp {
     color: @cyan;
 
-    .source.ruby.embedded {
+    .syntax--source.syntax--ruby.syntax--embedded {
       color: @orange;
     }
   }
@@ -422,7 +422,7 @@ button, button.icon, .btn-default, .btn {
 }
 
 
-.text.plain.null-grammar {
+.syntax--text.syntax--plain.syntax--null-grammar {
   color: #b1c3cd;
 }
 
@@ -430,7 +430,7 @@ button, button.icon, .btn-default, .btn {
 ////////////// JSX ////////////////////
 //////////////////////////////////////
 
-.syntax--entity.name.class, .syntax--entity.name.type.class {
+.syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class {
   color: #ff0066;
   font-weight: bolder;
 }

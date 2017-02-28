@@ -78,11 +78,11 @@ atom-text-editor {
 }
 
 .syntax--entity {
-  &.name.type {
+  &.syntax--name.syntax--type {
     color: @hydra;
   }
 
-  &.other.inherited-class {
+  &.syntax--other.syntax--inherited-class {
     color: @text;
   }
 }
@@ -103,7 +103,7 @@ atom-text-editor {
     color: @white;
   }
 
-  &.syntax--other.unit {
+  &.syntax--other.syntax--unit {
     color: @orange;
   }
 }
@@ -147,7 +147,7 @@ atom-text-editor {
     color: @blue;
   }
 
-  &.language.this.js {
+  &.syntax--language.syntax--this.syntax--js {
     font-style: italic;
     font-weight: bold;
     color: @hydra;
@@ -171,7 +171,7 @@ atom-text-editor {
     }
   }
 
-  &.other.link {
+  &.syntax--other.syntax--link {
     color: @hydra;
   }
 }
@@ -323,22 +323,22 @@ atom-text-editor {
   }
 }
 
-.syntax--meta.tag.jsx {
+.syntax--meta.syntax--tag.syntax--jsx {
   color: @white;
 }
 
-.syntax--dom.js {
+.syntax--dom.syntax--js {
   color: @hydra;
 }
 
-.syntax--entity.name.tag.jsx {
+.syntax--entity.syntax--name.syntax--tag.syntax--jsx {
   color: @blue;
 }
 
-.syntax--period.js {
+.syntax--period.syntax--js {
   color: @hydra;
 }
-.syntax--source.js {
+.syntax--source.syntax--js {
   color: #fff;
 }
 .syntax--string.syntax--quoted.syntax--js {
@@ -350,46 +350,46 @@ atom-text-editor {
 /////////////// MARKUP ///////////////
 //////////////////////////////////////
 
-.markup {
-  &.bold {
+.syntax--markup {
+  &.syntax--bold {
     font-style: bold;
     color: @hydra;
   }
 
-  &.changed {
+  &.syntax--changed {
     color: @blue;
   }
 
-  &.deleted {
+  &.syntax--deleted {
     color: @hydra;
   }
 
-  &.italic {
+  &.syntax--italic {
     font-style: italic;
     color: @purple;
   }
 
-  &.link {
+  &.syntax--link {
     color: @light-gray;
   }
 
-  &.heading .punctuation.definition.heading {
+  &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
     color: @hydra;
   }
 
-  &.inserted {
+  &.syntax--inserted {
     color: @text;
   }
 
-  &.list {
+  &.syntax--list {
     color: @hydra;
   }
 
-  &.quote {
+  &.syntax--quote {
     color: @white;
   }
 
-  &.raw.inline {
+  &.syntax--raw.syntax--inline {
     color: @text;
   }
 }
@@ -398,15 +398,15 @@ atom-text-editor {
 ////////////// MARKDOWN //////////////
 //////////////////////////////////////
 
-.source.gfm {
+.syntax--source.syntax--gfm {
   color: @text;
 }
 
-.heading.gfm {
+.syntax--heading.syntax--gfm {
   color: @hydra;
 }
 
-.variable.unordered.list.gfm {
+.syntax--variable.syntax--unordered.syntax--list.syntax--gfm {
   color: @hydra;
 }
 
@@ -435,16 +435,16 @@ button, button.icon, .btn-default, .btn {
   font-weight: bolder;
 }
 
-.storage.type.js {
+.syntax--storage.syntax--type.syntax--js {
   font-weight: 400;
 }
 
-.syntax--entity.other.attribute-name.jsx {
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--jsx {
   color: #d4c5ff;
   font-weight: 400;
 }
 
-.meta.tag.jsx {
+.syntax--meta.syntax--tag.syntax--jsx {
   color: #98ffcc;
   font-weight: 400;
 }

@@ -1,16 +1,16 @@
 # Hydra Syntax Theme
 ![Inspiration](https://raw.githubusercontent.com/juanmnl/hydra-theme/master/hydra.png)
 
-Hail Hydra!  
-Main goals will always be readability and long-term usage.  
+Hail Hydra!
+Focused on readability and long-term usage.
 
-You can help develop this theme further by contributing to the github repo.  
+You can help develop this theme further by contributing to the github repo.
 
-Chao!! :)  
+Chao!! :)
 
 **Use with Atom's One Dark UI theme.**
 
-:fire: v2.0.0 is here! :fire:
+:fire: v3.0.0 is here! :fire:
 
 ## Screens
 

@@ -1,7 +1,7 @@
 {
   "name": "hydra-syntax-theme",
   "theme": "syntax",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Hail Hydra!",
   "repository": {
     "type": "git",

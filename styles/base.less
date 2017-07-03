@@ -59,7 +59,7 @@ atom-text-editor {
   .bracket-matcher .region {
     z-index: 100;
     padding: 2px;
-    background-color: rgba(255,255,255, .2);
+    background-color: rgba(255, 255, 255, .2);
     border: 1px solid @hydra;
   }
 
@@ -96,7 +96,7 @@ atom-text-editor {
 
   &.syntax--operator {
     font-weight: bold;
-    color: @hydra;
+    color: #ff005a;
   }
 
   &.syntax--other.syntax--special-method {
@@ -133,7 +133,7 @@ atom-text-editor {
 }
 
 .syntax--variable {
-  color: #96aaff;
+  color: #9bb4ff;
 
   &.syntax--interpolation {
     color: lighten(@orange, 10%);
@@ -160,8 +160,7 @@ atom-text-editor {
 }
 
 .syntax--string {
-  color: @text;
-
+  color: #b9bdef;
 
   &.syntax--regexp {
     color: @cyan;
@@ -187,7 +186,7 @@ atom-text-editor {
     &.syntax--parameters,
     &.syntax--array {
       font-weight: bold;
-      color: @syntax-text-color;
+      color: #ff005a;
     }
 
     &.syntax--heading,
@@ -240,11 +239,12 @@ atom-text-editor {
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-  color: #ffffff;
-  font-weight: 400;
+    color: #ffffff;
+    font-weight: 400;
   }
 
-  &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
+  &.syntax--name.syntax--class,
+  &.syntax--name.syntax--type.syntax--class {
     color: @orange;
   }
 
@@ -257,7 +257,6 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--attribute-name {
-    font-weight: bold;
     color: @hydra;
 
     &.syntax--id {
@@ -284,7 +283,8 @@ atom-text-editor {
 
 .syntax--html {
   &.syntax--basic {
-    color: @white;
+    color: @text;
+    font-weight: 200;
   }
 }
 
@@ -318,7 +318,8 @@ atom-text-editor {
     font-weight: 400;
   }
 
-  &.syntax--property.syntax--object.syntax--js > .syntax--variable.syntax--other.syntax--property.syntax--js {
+  &.syntax--property.syntax--object.syntax--js
+    > .syntax--variable.syntax--other.syntax--property.syntax--js {
     color: #00d8ff;
   }
 }
@@ -344,7 +345,6 @@ atom-text-editor {
 .syntax--string.syntax--quoted.syntax--js {
   color: @text;
 }
-
 
 //////////////////////////////////////
 /////////////// MARKUP ///////////////
@@ -410,17 +410,17 @@ atom-text-editor {
   color: @hydra;
 }
 
-
 //////////////////////////////////////
 ////////////// PATCHES ///////////////
 //////////////////////////////////////
 
-
 // Fix Tool Bar plugin icon color
-button, button.icon, .btn-default, .btn {
+button,
+button.icon,
+.btn-default,
+.btn {
   color: #b1c3cd;
 }
-
 
 .syntax--text.syntax--plain.syntax--null-grammar {
   color: #b1c3cd;
@@ -430,7 +430,8 @@ button, button.icon, .btn-default, .btn {
 ////////////// JSX ////////////////////
 //////////////////////////////////////
 
-.syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class {
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
   color: #ff0066;
   font-weight: bolder;
 }
